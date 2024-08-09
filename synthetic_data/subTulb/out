@@ -1,0 +1,184 @@
+[1] "/work/PRTNR/CHUV/DIR/rgottar1/spatial/env/astear/pkgs/miniforge3/envs/R_scdesign/lib/R/library"
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: GenomicRanges
+Loading required package: stats4
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, setdiff, table,
+    tapply, union, unique, unsplit, which.max, which.min
+
+Loading required package: S4Vectors
+
+Attaching package: ‘S4Vectors’
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+Loading required package: IRanges
+Loading required package: GenomeInfoDb
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+
+Attaching package: ‘dplyr’
+
+The following object is masked from ‘package:Biobase’:
+
+    combine
+
+The following objects are masked from ‘package:GenomicRanges’:
+
+    intersect, setdiff, union
+
+The following object is masked from ‘package:GenomeInfoDb’:
+
+    intersect
+
+The following objects are masked from ‘package:IRanges’:
+
+    collapse, desc, intersect, setdiff, slice, union
+
+The following objects are masked from ‘package:S4Vectors’:
+
+    first, intersect, rename, setdiff, setequal, union
+
+The following objects are masked from ‘package:BiocGenerics’:
+
+    combine, intersect, setdiff, union
+
+The following object is masked from ‘package:matrixStats’:
+
+    count
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Loading required package: viridisLite
+Registered S3 method overwritten by 'zellkonverter':
+  method                                             from      
+  py_to_r.pandas.core.arrays.categorical.Categorical reticulate
+ℹ Using stored X_name value 'counts'
+Warning messages:
+1: Previous request to `use_python("/work/PRTNR/CHUV/DIR/rgottar1/spatial/env/astear/pkgs/miniforge3/envs/R_scdesign/bin/python", required = TRUE)` will be ignored. It is superseded by request to `use_python("/users/astear/.cache/R/basilisk/1.16.0/zellkonverter/1.14.1/zellkonverterAnnDataEnv-0.10.6/bin/python") 
+2: In .check_reddim_names(x, value[[v]], withDimnames = TRUE, vname = sprintf("value[[%s]]",  :
+  non-NULL 'rownames(value[[1]])' should be the same as 'colnames(x)' for
+'reducedDims<-'. This will be an error in the next release of
+Bioconductor.
+3: In .check_reddim_names(x, value[[v]], withDimnames = TRUE, vname = sprintf("value[[%s]]",  :
+  non-NULL 'rownames(value[[2]])' should be the same as 'colnames(x)' for
+'reducedDims<-'. This will be an error in the next release of
+Bioconductor.
+4: In .check_reddim_names(x, value[[v]], withDimnames = TRUE, vname = sprintf("value[[%s]]",  :
+  non-NULL 'rownames(value[[3]])' should be the same as 'colnames(x)' for
+'reducedDims<-'. This will be an error in the next release of
+Bioconductor.
+5: In .check_reddim_names(x, value[[v]], withDimnames = TRUE, vname = sprintf("value[[%s]]",  :
+  non-NULL 'rownames(value[[4]])' should be the same as 'colnames(x)' for
+'reducedDims<-'. This will be an error in the next release of
+Bioconductor.
+class: SingleCellExperiment 
+dim: 313 30208 
+metadata(1): design_matrix
+assays(2): counts logcounts
+rownames(313): ACTA2 ADAM12 ... XCL2 ZNF683
+rowData names(0):
+colnames: NULL
+colData names(29): orig.ident nCount_originalexp ... singler_annotation
+  ident
+reducedDimNames(5): PCA TSNE UMAP design_matrix spatial
+mainExpName: NULL
+altExpNames(0):
+ [1] "orig.ident"                 "nCount_originalexp"        
+ [3] "nFeature_originalexp"       "cell_id"                   
+ [5] "spatial1"                   "spatial2"                  
+ [7] "transcript_counts"          "control_probe_counts"      
+ [9] "control_codeword_counts"    "unassigned_codeword_counts"
+[11] "deprecated_codeword_counts" "total_counts"              
+[13] "cell_area"                  "nucleus_area"              
+[15] "sample_id"                  "sum"                       
+[17] "detected"                   "subsets_Mito_sum"          
+[19] "subsets_Mito_detected"      "subsets_Mito_percent"      
+[21] "total"                      "libsize_drop"              
+[23] "sizeFactor"                 "nCount_SCT"                
+[25] "nFeature_SCT"               "SCT_snn_res.0.8"           
+[27] "seurat_clusters"            "singler_annotation"        
+[29] "ident"                     
+Input Data Construction Start
+Input Data Construction End
+Start Marginal Fitting
+Marginal Fitting End
+Start Copula Fitting
+Convert Residuals to Multivariate Gaussian
+Converting End
+Copula group 1 starts
+Copula Fitting End
+Start Parameter Extraction
+Parameter
+Extraction End
+Start Generate New Data
+Use Copula to sample a multivariate quantile matrix
+Sample Copula group 1 starts
+New Data Generating End
+ℹ Using the 'counts' assay as the X matrix
+/users/astear/.cache/R/basilisk/1.16.0/zellkonverter/1.14.1/zellkonverterAnnDataEnv-0.10.6/lib/python3.12/site-packages/anndata/_core/anndata.py:430: FutureWarning: The dtype argument is deprecated and will be removed in late 2024.
+  warnings.warn(
