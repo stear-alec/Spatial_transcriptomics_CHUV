@@ -5,7 +5,7 @@ _Data files are being added_
 
 ### Analysis
 **Jan to june 2024 :** Comparing different cell cell communication methods in Spatial transcriptomics, for Public Health Data Science Master thesis at ISPED.
-_Master thesis report and presentation can be found at ..._
+_Master thesis report and oral presentation in pdf format._
 
 ### synthetic_data
 **Summer 2024 :** Generate synthetic Spatial transcriptomic data, from lung and breast samples at CHUV. 
